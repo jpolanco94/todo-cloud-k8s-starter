@@ -10,7 +10,7 @@ spec:
   selector:
     todo-app-pod: todo-view
   ports:
-  - name: "8090"
-    port: 8090
-    targetPort: 8090
+  - name: "8080"
+    port: 8080
+    targetPort: 8080
 

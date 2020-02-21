@@ -12,7 +12,7 @@ RUN npm run ng build -- --prod --output-path=dist
 ###################################################
 FROM nginx:1.15.9-alpine
 
-EXPOSE 8090
+EXPOSE 8080
 
 COPY --from=builder /usr/src/app/dist /usr/share/nginx/html
 

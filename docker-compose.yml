@@ -192,7 +192,7 @@ services:
     image: todo-proxy:development
     mem_limit: 128m
     ports:
-      - 8090:80
+      - 8080:80
     depends_on:
       - todo-api-gateway
       - todo-view

@@ -1,0 +1,17 @@
+ todoImageUser: jlpolanco
+ todoVersion: "1.0"
+
+ replicas:
+  todoApiGateway: 2
+  todoCacheIngestionDeployment: 1
+  todoCacheServiceDeployment: 2
+  todoElasticDeployment: 1
+  todoPostgresDeployment: 1
+  todoProxyDeployment: 2
+  todoRabbitMqDeployment: 1
+  todoRedisDeployment: 1
+  todoSearchIngestionDeployment: 1
+  todoSearchServiceDeployment: 2
+  todoStorageIngestionDeployment: 1
+  todoStorageServiceDeployment: 2
+  todoViewDeployment: 1
